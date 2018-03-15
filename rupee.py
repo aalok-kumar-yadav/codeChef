@@ -1,6 +1,7 @@
 T = input()
 result =[None]*T
 
+#condition of checking test cases
 if(T>=1 and T<=100):
 	count = 0
 	while (count<T):
@@ -66,5 +67,6 @@ if(T>=1 and T<=100):
 		count= count+1
 		
 	
+#printing result of above program
 	for k in range(T):
 		print result[k]	
